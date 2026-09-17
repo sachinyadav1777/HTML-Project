@@ -1,0 +1,125 @@
+h1 {
+    height: 50px;
+    width: 350px;
+    border: 5px dashed black;
+    background-color: aqua;
+    padding: 15px 10px 5px 20px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+h1 + p {
+    width: 350px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #f8e0a4;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.timeline {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px 5px;
+    background-color: #A82020;
+    font-size: 35px;
+}
+#time-line-anchor {
+    color: white;
+    text-decoration: none;
+}
+.inspiration {
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 5px 5px 20px;
+    background-color: #A82020;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#inspirational-anchor {
+    color: white;
+    text-decoration: none;
+}
+#time-line {
+    border: 5px solid black;
+    padding: 5px;
+    background-color: #f8e0a4;
+    border-radius: 10px;
+}
+.h2 {
+    height: 30px;
+    width: 350px;
+    border: 3px dashed black;
+    background-color: aquamarine;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+#inspirational {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #f8e0a4;
+}
+.insp {
+    height: 30px;
+    width: 750px;
+    border: 3px dashed black;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px
+}
+blockquote {
+    font-weight: bold;
+}
+footer {
+    width: 350px;
+    border: 3px dashed wheat;
+    background-color: #A82020;
+    color: white;
+    border-radius: 20px;
+    margin-left: 550px;
+    padding: 5px;
+}
+#anchor {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+}
+.intro {
+    display: flex;
+    align-items: flex-start;
+}
+#figure img {
+    width: 900px;
+    height: 550px;
+    object-fit: cover;
+    border: 3px dashed #A82020;
+}
+#figure {
+    margin: 20px 15px 20px 0px;
+    flex: 1;
+}
+.intro-text {
+    width: 40%;
+}
+.footer {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 5px 5px 20px;
+    background-color: #A82020;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#footer-anchor {
+    text-decoration: none;
+    color: white;
+}
