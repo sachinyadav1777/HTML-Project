@@ -102,6 +102,7 @@ footer {
     height: 30rem;
     object-fit: cover;
     border: 3px dashed #A82020;
+    box-shadow: 5px 5px 15px black;
 }
 #figure {
     margin: 20px 15px 20px 0px;
