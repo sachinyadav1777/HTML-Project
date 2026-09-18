@@ -8,6 +8,7 @@ h1 {
     margin-bottom: 0px;
     margin-left: 10px;
 }
+
 h1 + p {
     width: 350px;
     border: 3px solid black;
@@ -17,6 +18,7 @@ h1 + p {
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
 .timeline {
     width: 400px;
     border: 2px solid black;
@@ -24,11 +26,14 @@ h1 + p {
     padding: 5px 20px 5px;
     background-color: #A82020;
     font-size: 35px;
+    transition: box-shadow 0.4s ease;
 }
+
 #time-line-anchor {
     color: white;
     text-decoration: none;
 }
+
 .inspiration {
     width: 550px;
     border: 2px solid black;
@@ -37,17 +42,21 @@ h1 + p {
     background-color: #A82020;
     font-size: 35px;
     margin-top: 20px;
+    transition: box-shadow 0.4s ease;
 }
+
 #inspirational-anchor {
     color: white;
     text-decoration: none;
 }
+
 #time-line {
     border: 5px solid black;
     padding: 5px;
     background-color: #f8e0a4;
     border-radius: 10px;
 }
+
 .h2 {
     height: 30px;
     width: 350px;
@@ -58,11 +67,13 @@ h1 + p {
     border-radius: 15px;
     margin-top: 15px;
 }
+
 #inspirational {
     border: 5px solid black;
     border-radius: 10px;
     background-color: #f8e0a4;
 }
+
 .insp {
     height: 30px;
     width: 750px;
@@ -72,11 +83,13 @@ h1 + p {
     padding: 10px 10px 10px 20px;
     border-radius: 10px;
     margin-bottom: 0px;
-    margin-left: 5px
+    margin-left: 5px;
 }
+
 blockquote {
     font-weight: bold;
 }
+
 footer {
     width: 350px;
     border: 3px dashed wheat;
@@ -86,6 +99,7 @@ footer {
     margin-left: 550px;
     padding: 5px;
 }
+
 #anchor {
     border: 3px solid white;
     border-radius: 10px;
@@ -93,10 +107,12 @@ footer {
     color: black;
     padding: 5px;
 }
+
 .intro {
     display: flex;
     align-items: flex-start;
 }
+
 #figure img {
     width: 100%;
     height: 30rem;
@@ -104,13 +120,16 @@ footer {
     border: 3px dashed #A82020;
     box-shadow: 5px 5px 15px black;
 }
+
 #figure {
     margin: 20px 15px 20px 0px;
     flex: 1;
 }
+
 .intro-text {
     width: 40%;
 }
+
 .footer {
     width: 500px;
     border: 2px solid black;
@@ -119,8 +138,25 @@ footer {
     background-color: #A82020;
     font-size: 35px;
     margin-top: 20px;
+    transition: box-shadow 0.4s ease;
 }
+
 #footer-anchor {
     text-decoration: none;
     color: white;
+}
+
+#time-line:target {
+    box-shadow: 0 0 20px black;
+    transition: box-shadow 0.5s ease;
+}
+
+#inspirational:target {
+    box-shadow: 0 0 20px black;
+    transition: box-shadow 0.5s ease;
+}
+
+#footer:target {
+    box-shadow: 0 0 20px black;
+    transition: box-shadow 0.5s ease;
 }
